@@ -1,5 +1,6 @@
 # Command `cd`
 ## 1. `cd` Example With No Arguments
+
 ---
 ## 2. `cd` Example With Path To Directory
 ---
