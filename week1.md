@@ -1,19 +1,19 @@
 # Command `cd`
 ## 1. `cd` Example With No Arguments
-Input: `[user@sahara ~]$ cd` <br>
-Output: `[user@sahara ~]$ ` <br>
-At this point, the working directory was /home <br>
-This command requires the name of a file or folder so that it can change the current directory. <br> 
-The terminal thinks that the file that you are trying to find is just the basic /home so it keeps the directory the same. <br>
-This output is not an error since you are just trying to change the directory back to the original directory. <br>
+Input: `[user@sahara ~]$ cd` 
+Output: `[user@sahara ~]$ ` 
+At this point, the working directory was /home 
+This command requires the name of a file or folder so that it can change the current directory.  
+The terminal thinks that the file that you are trying to find is just the basic /home so it keeps the directory the same. 
+This output is not an error since you are just trying to change the directory back to the original directory. 
 ## 2. `cd` Example With Path To Directory
-Input: `[user@sahara ~]$ cd lecture1` <br>
-Output: `[user@sahara ~/lecture1]$ ` <br>
-Originally, the working directory was /home, but for the output it changed to /home/lecture1 <br>
-With a folder name, it changes the directory so that it includes the folder, and now the directory includes the folder. <br>
-This output is not an error since it allows you to access that directory from that point. <br>
-## 3. `cd` Example With Path To File 
-Input: `[user@sahara ~/lecture1]$ cd Hello.Java` <br>
+Input: `[user@sahara ~]$ cd lecture1`
+Output: `[user@sahara ~/lecture1]$ ` 
+Originally, the working directory was /home, but for the output it changed to /home/lecture1 
+With a folder name, it changes the directory so that it includes the folder, and now the directory includes the folder. 
+This output is not an error since it allows you to access that directory from that point. 
+## 3. `cd` Example With Path To File
+Input: `[user@sahara ~/lecture1]$ cd Hello.Java` 
 Output: `bash: cd: Hello.java: Not a directory` <br>
 The working directory was /home/lecture1 and if it wasn't it wouldn't have been able to access a file name and there would have been an error message. <br>
 Due to the file name being in the folder, it could access it but since the file isn't a directory it prints out an error message. <br>
