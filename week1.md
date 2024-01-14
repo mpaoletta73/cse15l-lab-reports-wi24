@@ -18,6 +18,7 @@ Output: `bash: cd: Hello.java: Not a directory` <br/>
 The working directory was /home/lecture1 and if it wasn't it wouldn't have been able to access a file name and there would have been an error message. <br/>
 Due to the file name being in the folder, it could access it but since the file isn't a directory it prints out an error message. <br/>
 This was an error message due to typing a file name instead of a directory name. <br/>
+
 ---
 # Command `ls`
 ## 1. `ls` Example With No Arguments
@@ -41,13 +42,30 @@ For this one, I changed the working directory to /home/lecture1 so that I could 
 The output here is a little confusing at first but makes sense if you think of what you are asking the computer to tell you. <br/>
 You're effectively asking the computer to tell you what could be in the file that is just a text file so the computer just responds with the name of the file. <br/>
 This output doesn't give a major error since you are giving a file that is contained in the current directory, but the information that it provides is essentially useless. <br/>
+
 ---
 # Command `cat`
 ## 1. `cat` Example With No Arguments
-<br>
+Input: `[user@sahara ~]$ cat` <br/>
+Output: ` ` <br/>
+The directory was /home and after I was possible to view the directory I believe that it would state that the directory was /home<br/>
+The output is nothing but a place to write text and once you write something it will copy it on the next line. <br/>
+This is not how to use this command as you can't write any more commands unless you open another terminal. <br/>
+Although it doesn't print out a bash message I would call this an error as you can't write any more commands. <br/>
 ## 2. `cat` Example With Path To Directory
-<br>
+Input: `[user@sahara ~]$ cat lecture1` <br/>
+Output: `cat: lecture1: is a directory` <br/>
+At this point, the working directory was and still is /home <br/>
+The output is a bash message telling you that the argument that was given is a directory, and it seems to have a problem with that.
+This is an error message as it tells you that you cannot use a directory as an argument for this command. <br/>
 ## 3. `cat` Example With Path To File
-<br>
+Input: `[user@sahara ~]$ cat README` <br/>
+Output: `To use this program: ... ` <br/>
+The working directory was /home/lecture1 so that I could properly access a file. <br/>
+The output gives the contents of the file reading out what the code and comments are in the terminal. <br/>
+This means that the function cat can be used to read out the contents of files through the terminal without opening said files. <br/>
+This is not an error, as it gives the correct information. <br/>
+This would be an error message if the working directory wasn't what it was, as it would not be able to find the file that is referenced in the argument. <br/>
+
 ---
 
