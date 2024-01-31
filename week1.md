@@ -3,8 +3,9 @@
 Input: `[user@sahara ~]$ cd` <br/>
 Output: `[user@sahara ~]$ ` <br/>
 At this point, the working directory was /home <br/>
-This command requires the name of a file or folder so that it can change the current directory.  <br/>
+This command requires the name of a file or folder so that it can change the current directory. <br/>
 The terminal thinks that the file that you are trying to find is just the basic /home so it keeps the directory the same. <br/>
+Since there are no arguments it takes you to the original directory which would be the same directory that I was already at. <br/>
 This output is not an error since you are just trying to change the directory back to the original directory. <br/>
 ## 2. `cd` Example With Path To Directory
 Input: `[user@sahara ~]$ cd lecture1`<br/>
@@ -50,8 +51,8 @@ Input: `[user@sahara ~]$ cat` <br/>
 Output: ` ` <br/>
 The directory was /home and after I was possible to view the directory I believe that it would state that the directory was /home<br/>
 The output is nothing but a place to write text and once you write something it will copy it on the next line. <br/>
-This is not how to use this command as you can't write any more commands unless you open another terminal. <br/>
-Although it doesn't print out a bash message I would call this an error as you can't write any more commands. <br/>
+This command with no argument starts an infinite loop (that can be broken if you hit Control + C) of printing what you type into the terminal. <br/>
+This is not an error as it doesn't print a bash error, but this command is not being used to the best of its abilities.
 ## 2. `cat` Example With Path To Directory
 Input: `[user@sahara ~]$ cat lecture1` <br/>
 Output: `cat: lecture1: is a directory` <br/>
