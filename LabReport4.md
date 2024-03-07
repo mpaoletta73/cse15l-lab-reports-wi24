@@ -1,7 +1,8 @@
 # Lab Report 4 - Matthew Paoletta (2/27/2024)
 ## Here is the code output of the keys that I pressed and the terminal when I was in insert mode 
-![image](https://github.com/mpaoletta73/cse15l-lab-reports-wi24/assets/156368976/7639c387-d778-41e0-abd0-0bd91a68060a)
-![image](https://github.com/mpaoletta73/cse15l-lab-reports-wi24/assets/156368976/08c82661-84b8-4948-af9e-bd554f2d851c)
+<img src="https://github.com/mpaoletta73/cse15l-lab-reports-wi24/assets/156368976/7639c387-d778-41e0-abd0-0bd91a68060a" alt="image" width="400">
+<img src="https://github.com/mpaoletta73/cse15l-lab-reports-wi24/assets/156368976/08c82661-84b8-4948-af9e-bd554f2d851c" alt="image" width="400">
+
 ## Keys pressed for Lab Report and their Summaries: 
 
 **Step 4: Create a new Python file**
