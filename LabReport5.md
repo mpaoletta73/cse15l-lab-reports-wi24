@@ -6,27 +6,29 @@
 Hey everyone, I've been working on this Java program that's supposed to calculate the average of a list of numbers. However, whenever I run it, 
 I keep getting this weird error message that says "NaN" instead of the average. I think there might be something wrong with my `calculateAverage` function. Here's the code:
 
-`public class AverageCalculator {
-    public static void main(String[] args) {
-        double[] numbers = {10.5, 20.0, 30.5, 40.0, 50.5};
-        double result = calculateAverage(numbers);
-        System.out.println("The average is: " + result);
-    }
-    public static double calculateAverage(double[] numbers) {
-        double sum = 0;
-        for (int i = 1; i <= numbers.length; i++) {
-            sum += numbers[i];
-        }
-        return sum / numbers.length;
-    }
-}`
+`public class AverageCalculator {  
+
+    public static void main(String[] args) {   
+        double[] numbers = {10.5, 20.0, 30.5, 40.0, 50.5};  
+        double result = calculateAverage(numbers);  
+        System.out.println("The average is: " + result;  
+    }  
+    public static double calculateAverage(double[] numbers) {  
+        double sum = 0;  
+        for (int i = 1; i <= numbers.length; i++) {  
+            sum += numbers[i];  
+        }  
+        return sum / numbers.length;  
+    }  
+}`  
 
 **Response from TA**
 TA Response:
 Hey there! It looks like you might have an off-by-one error in your calculateAverage function. Remember that array indices start from 0. 
 Try changing the loop condition to i < numbers.length instead of i <= numbers.length. Let me know if that helps!
 
-`public class AverageCalculator {
+`public class AverageCalculator {  
+
     public static void main(String[] args) {
         double[] numbers = {10.5, 20.0, 30.5, 40.0, 50.5};
         double result = calculateAverage(numbers);
